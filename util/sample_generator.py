@@ -162,7 +162,7 @@ class World:
 
 getList(rooms)
 w = World()
-num_rooms = 50
+num_rooms = 100
 width = 10
 height = 10
 w.generate_rooms(width, height, num_rooms)
