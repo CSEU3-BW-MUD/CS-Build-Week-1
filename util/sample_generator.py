@@ -1,10 +1,4 @@
-# Sample Python code that can be used to generate rooms in
-# a zig-zag pattern.
-#
-# You can modify generate_rooms() to create your own
-# procedural generation algorithm and use print_rooms()
-# to see the world.
-
+from dataset import dataset
 
 class Room:
     def __init__(self, id, name, description, x, y):
@@ -80,7 +74,8 @@ class World:
                 direction *= -1
 
             # Create a room in the given direction
-            room = Room(room_count, "A Generic Room", "This is a generic room.", x, y)
+            print(y, x)
+            room = Room(room_count, dataset[room_count]['title'], dataset[room_count]['description'], x, y)
             # Note that in Django, you'll need to save the room after you create it
 
             # Save the room in the World grid
@@ -152,9 +147,9 @@ class World:
 
 
 w = World()
-num_rooms = 44
-width = 8
-height = 7
+num_rooms = 9
+width = 3
+height = 3
 w.generate_rooms(width, height, num_rooms)
 w.print_rooms()
 
