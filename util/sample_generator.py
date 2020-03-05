@@ -1,4 +1,4 @@
-from dataset import dataset
+from dataset import dataset,cities
 
 class Room:
     def __init__(self, id, name, description, x, y):
@@ -75,7 +75,7 @@ class World:
 
             # Create a room in the given direction
             print(y, x)
-            room = Room(room_count, dataset[room_count]['title'], dataset[room_count]['description'], x, y)
+            room = Room(room_count, cities[room_count], 'Generic description', x, y)
             # Note that in Django, you'll need to save the room after you create it
 
             # Save the room in the World grid
@@ -147,9 +147,9 @@ class World:
 
 
 w = World()
-num_rooms = 9
-width = 3
-height = 3
+num_rooms = 100
+width = 10
+height = 10
 w.generate_rooms(width, height, num_rooms)
 w.print_rooms()
 
