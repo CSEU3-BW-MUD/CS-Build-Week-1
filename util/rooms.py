@@ -1,103 +1,295 @@
-rooms={
-    "Abafar": "A desert planet located in the Outer Rim with a completely white surface. Known as The Void, the planet is barely populated but is home to massive amounts of rhydonium, a scarce and volatile fuel.",
-    "Aeos Prime": "An ocean planet located in the Outer Rim territories. Home to native Aeosians and the site of a former Rebel Alliance base.",
-    "Agamar": "A barren, rocky planet in the Outer Rim. Site of a still-active reserve of Separatist droids that became known for surviving the Clone Wars",
-    "Ahch-To": "Oceanic planet on which Luke Skywalker has been hiding for several years, and the location of the first Jedi Temple and the Tree Library of sacred Jedi texts. Porgs are among the native species.",
-    "Ajan Kloss": "A jungle moon which serves as a new base of operations for the Resistance. Leia Organa dies here after using the last of her energy to reach out to her son through the Force.",
-    "Akiva": "Jungle planet and home of Norra and Temmin Wexley, and a primary setting in Aftermath",
-    "Alderaan": "	Forests, mountains; home planet of Princess Leia and the House of Organa. Destroyed by the first Death Star as punishment for involvement in the Rebel Alliance and also as a demonstration of power.",
-    "Alzoc III": "	Ice planet, with many glaciers, and in its surface lies a crashed separatist carrier, with an anti-gravitational device.",
-    "Ando": "A water-covered planet located in the Outer Rim, it is home to the amphibious Aqualish species and endures great turmoil during the Separatist Crisis.",
-    "Anoat": "Polluted; A nearly inhospitable planet used by the Empire.",
-    "Arvala-7": "An out-of-the-way desert planet where the Mandalorian was sent by the Client to look for the Child and where Kuiil worked as a vapor farmer.",
-    "Atollon": "Desert planet, site of Phoenix Squadron Rebel base. Home of the spider-like hexapods known as the Krykna, and the powerful force-wielder Bendu.",
-    "Batuu": "A remote frontier outpost and old trading port",
-    "Behpour": "A toxic planet where Confederacy of Independent Systems had a secret laboratory commanded by Kul Teska",
-    "Bespin": "A gas planet with a thin layer of habitable atmosphere where Cloud City was located. The planet's gas layers were a source of rare tibanna gas which was harvested and refined at mining complexes like Cloud City.",
-    "Bogano": "A hospitable planet where Eno Cordova hid from the Empire. There was a structure known as The Vault, within which hid a Jedi holocron.",
-    "Bracca": "An inhospitable junkyard planet in the Mid Rim considered strategically important in the Clone Wars. Becomes useful to the Scrapper Guild whose members salvage decommissioned ships for the Empire.",
-    "Cantonica": "An arid planet where the resort city of Canto Bight, home of the Canto Casino and Racetrack, is located.",
-    "Castilon": "An ocean planet located in the Outer Rim near Wild Space. Home to the aircraft refueling station Colossus, as well as a destination for racers.",
-    "Cato Neimoidia": "	The site of battles throughout the Clone Wars, notable for its Bridge Cities. Also the site of Plo Koon's death during the Great Jedi Purge.",
-    "Celsor 3": "An uninhabited ice moon and home to the Jakoosk.",
-    "Chandrila": "Homeworld of Mon Mothma, it serves as the first capital of the New Republic. Serene planet known for calm seas and rolling hills.",
-    "Christophsis": "During the Clone Wars, the Battle of Christophsis occurs here, serving as an introduction to Ahsoka Tano.",
-    "Concord Dawn": "Home planet of Jango Fett. Habitable planet that is surrounded by a large amount of debris from many vicious wars. Formerly controlled by the Mandalorians.",
-    "Corellia": "Industrial planet located in the Core of the galaxy, with a strong culture of training pilots. Homeworld of Han Solo.",
-    "Coruscant": "Cosmopolitan urban world consisting of one planet-wide city. Governmental center of the Galactic Republic and later the Galactic Empire.",
-    "Crait": "Small mineral planet located in a remote section of the galaxy, its surface is covered with a layer of white salt over its red-colored soil. In Leia, Princess of Alderaan it is the location of an early Rebel Alliance outpost. Leia and her remaining Resistance forces flee there in The Last Jedi, where they face off with the First Order.",
-    "D'Qar": "Site of a Resistance operations base led by General Leia Organa.",
-    "Dagobah": "Swamp planet and Yoda's residence after the fall of the Jedi.",
-    "Dantooine": "Rural planet and the former site of a Rebel base.",
-    "Dandoran": "Lush and watery planet in Hutt space. Home to many smuggling cartels",
-    "Dathomir": "Homeworld of the Force-sensitive Nightsisters, including Asajj Ventress. Also the homeworld of the Zabrak warriors, including Darth Maul.",
-    "Devaron": "Forest planet with an ancient Jedi Temple.",
-    "Eadu": "Rocky, mountainous planet beset by constant severe storms. Home to an Imperial weapons research facility. Its appearance was partly inspired by the fictitious planet LV-426 from the Alien franchis",
-    "Endor": "Forest moon that the second Death Star orbits. Inhabited by Ewoks. The location of the battle between the Rebel Alliance and the Empire leading to the destruction of the second Death Star.",
-    "Er´kit": "Desert planet located in the galaxy's Outer Rim Territories. Homeworld of the Er'Kit species.",
-    "Eriadu": "Planet located in the galaxy's Outer Rim. Homeworld of Grand Moff Tarkin and his fam",
-    "Exegol": "A stormy planet in the galaxy's Unknown Regions. An ancient bastion of the Sith, it serves as the lair of Emperor Palpatine during the construction of his armada known as the Final Order.",
-    "Felucia": "Jungle planet teeming with plants but little animal life. Aayla Secura is assassinated here during the Jedi Purge.",
-    "Florrum": "Sulfurous desert planet. Hondo Ohnaka is the leader of a pirate gang based on the planet.",
-    "Fondor": "Imperial manufacturing center with large shipyards.",
-    "Geonosis": "Rocky desert planet where battle droids are manufactured, and the site of the opening battle of the Clone Wars. All life on the planet is presumed destroyed by the Empire in Star Wars Rebels, with two exceptions: Klik-Klak and his offspring.[50] Primary construction site of the first Death Star. Homewold of the Geonosians.",
-    "Hosnian Prime": "Urban planet and capital of the New Republic.[52] Destroyed by the First Order's Starkiller Base.",
-    "Hoth": "Desolate ice planet and base for the Rebel Alliance.",
-    "Iego": "An Outer Rim planet which harbors flying creatures called xandu and medicinally important plants called reeska. Iego is surrounded by a 1000 moons and at least one of these, named Millius Prime, is home to a race called the Angels.",
-    "Ilum": "Remote ice planet where kyber crystals are mined. It is believed to be the same planet as Starkiller Base",
-    "Iridonia": "Rumored birthplace of Darth Maul",
-    "Jakku": "Desert planet. Site of a graveyard of ships damaged during the Battle of Jakku, the final battle between the New Republic and the Galactic Empire. Also the homeworld of Rey.",
-    "Jedha": "Cold desert moon, and a sacred place for believers in the Force. A source of kyber crystals used for lightsabers and the Death Star's primary weapon. It is also the first location on which the Death Star's destructive capability is tested.",
-    "Kamino": "Ocean planet where cloning technology is developed and the Clone Army is created and trained. Obi-Wan Kenobi discovers that the planet is missing from the Jedi archives; it is later revealed to have been deleted as a part of Darth Sidious' plot to start the Clone Wars",
-    "Kashyyyk": "Forest planet and home of the Wookiees. Also the site of one of the final battles of the Clone Wars.",
-    "Kef Bir": "A moon of Endor and the location of some of the wreckage of the second Death Star after it was destroyed in Return of the Jedi.",
-    "Kessel": "A mining planet that has been fought over by crime lords for its valuable Spice. A fissure vent beneath the spice mines served as a source of astatic coaxium, an element that could be refined into hyperfuel for starships.",
-    "Kijimi": "A frigid mountainous planet. It was the homeworld of Zorii Bliss, leader of the smuggling gang known as the Spice Runners of Kijimi. It is later destroyed by the Final Order as a show of force for the rest of the galaxy.",
-    "Kuat": "Industrial planet home to Kuat Drive Yards, the manufacturer of Star Destroyers.",
-    "Lah'mu": "A remote planet with black sands, where Jyn Erso and her parents go into hiding.",
-    "Lira San": "The original homeworld of the Lasat, according to Zeb Orrelios, member of the Spectres",
-    "Lothal": "Remote farm planet and birthplace of Ezra Bridger.",
-    "Lotho Minor": "A planetary junkyard and hiding place of Darth Maul after his presumed death.",
-    "Malachor": "Desolate Sith temple world and site of two major battles thousands of year apart: one involving the Scourge of Malachor, the other between Darth Maul, several Rebels, Darth Vader, and several Inquisitors.",
-    "Malastare": "Forested planet where podracing is popular. Birthplace of Sebulba and homeworld of the Dug.",
-    "Mandalore": "Formerly habitable planet and the subject of legends due to its history of Mandalorian warriors.",
-    "Maridun": "Grassy planet remaining undiscovered until the Clone Wars.",
-    "Mimban": "Swamp planet with perpetual fog and overcast sky.",
-    "Mon Cala": "Ocean planet, home to the Mon Calamari and Quarren species. Also known as Mon Calamari, or Dac",
-    "Moraband": "Home planet of ancient Sith lords. Known as Korriban in Legends.",
-    "Mortis": "Planet with a wall surrounding it, home to the three omnipotent Force wielders known only in the Jedi Archives as the Mortis Gods.",
-    "Mustafar": "An originally lush and forested planet that becomes volcanic and almost lifeless during an ancient battle",
-    "Mygeeto": "Cold, urban planet that served as a battle site in the final days of the Clone Wars, as well as the death place of Jedi Master Ki Adi Mundi.",
-    "Naboo": "Home planet of the Gungans, including Jar-Jar Binks, and various humans, who compose a civilization called the Naboo, which includes Padmé Amidala and Emperor Palpatine.",
-    "Nal Hutta": "Home planet of Jabba and other Hutts. Close to the urban moon of Nar Shaddaa.",
-    "Nevarro": "Desert planet and local outpost of the Bounty Hunters' Guild.",
-    "Nur": "Ocean moon with submerged volcanoes, and in its surface lies the Inquisitirium fortress.",
-    "Onderon": "Jungle planet where Anakin Skywalker leads a revolt against its monarchy; birthplace of Saw Gerrera",
-    "Ord Mantell": "A planet where Han Solo tells of having a run-in with a bounty hunter.",
-    "Pasaana": "A desert planet on the edge of the galaxy, home to the Aki-Aki species.",
-    "Pillio": "Uncolonized aquatic planet with over 3 million species, and the location of one of Palpatine's observatories.",
-    "Polis Massa": "Outer Rim planetoid within an asteroid field of the same name; birthplace of Luke Skywalker and Leia Organa.",
-    "Rishi": "Tropical planet used by the Republic to monitor the nearby cloning facility on Kamino.",
-    "Rodia": "Home planet of the Rodians, including Greedo. A remote swampy, jungle planet, it was represented by Onaconda Farr in the Galactic Senate during the Clone Wars.",
-    "Ruusan": "Barren planet housing the Valley of the Jedi. Site of a great battle between the Sith and the Jedi.",
-    "Ryloth": "Dry, hot home planet of the Twi'leks, including Hera Syndulla and Jedi Master Aayla Secura.",
-    "Saleucami": "Primary terrain deserts and swamps. Home of the Clone Trooper deserter Cut Lawquane.",
-    "Savareen": "Desert and ocean planet. where destitute villages farm wind and refine coaxium. In Solo: A Star Wars Story, the Millennium Falcon arrives there after Han and his crew steal coaxium from Kessel, and Dryden Vos and Tobias Beckett die there.",
-    "Scarif": "Oceanic paradise world used for construction of the Death Star after Geonosis.",
-    "Serenno": "A planet in the Outer Rim Territories. Homeworld of Count Dooku.",
-    "Shili": "Home planet of the Togruta, including Jedi Council member Shaak Ti and Ahsoka Tano",
-    "Sorgan": "A forested planet in the Outer Rim mostly populated by human farmers who harvest krill which is used to make spotchka, a popular drink on the planet.",
-    "Starkiller Base": "Snowy planet of forested mountains converted by the First Order into a superweapon",
-    "Subterrel": "Mining planet mentioned by Dexter Jettster who spent time prospecting there. Located near Kamino, beyond the Outer Rim.",
-    "Sullust": "A volcanic planet whose atmosphere was highly toxic forcing the native Sullustans to build technologically advanced subterranean cities.",
-    "Takodana": "Forest planet and site of Maz Kanata's castle. Neutral territory between First Order and Resistance",
-    "Tatooine": "Desert planet and childhood home of Anakin Skywalker and Luke Skywalker. Location of Jabba the Hutt's palace.",
-    "Toydaria": "Home planet of Watto and other Toydarians. Close to Nal Hutta.",
-    "Trandosha": "Homeworld of the Trandoshan hunters. Close to Kashyyyk.",
-    "Umbara": "	Planet with a thick, foggy atmosphere. Home to the Umbarans.",
-    "Utapau": "Remote planet, covered in deep sinkholes and home to the Utai and Pau'ans. Site of General Grievous' defeat and a separatist base during the last days of the Clone Wars.",
-    "Vandor-1": "Icy, mountainous planet that is the site of a Crimson Dawn train heist led by Tobias Beckett in Solo: A Star Wars Story",
-    "Vardos": "Imperial stronghold and home to Iden and Garrick Versio. One of the first targets of Operation: Cinder.",
-    "Wobani": "A desolate wasteland and the site of an Imperial penal labor colony.",
-    "Yavin": "Gas planet with several moons, including Yavin 4."
-}
+room_title = [
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+    'Tombs of the Dark Ogre'
+    'Burrows of the Silver Hunter',
+    'Labyrinth of the Storm Priest',
+    'Lair of the Vanquished Dragon',
+    'The Wasted Point',
+    'The Screaming Tombs',
+    'The Twilight Cells',
+    'The Secret Vault',
+    'The Erased Grotto',
+    'The White Burrows',
+]
+
+room_descriptions = [
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?"
+    f"A tall granite door in a grim woods marks the entrance to this dungeon. Beyond the granite door lies a modest, crumbling room. It's covered in moss, bat droppings and dead insects. Your torch allows you to see rows of statues, destroyed and taken by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed lost treasuries, unknown rooms and armories and soon you enter a shady area. It's packed with boxes full of runes and magical equipment, as well as skeletons. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's depths. You pass a few more rooms and passages, some are dead ends, others seem to have no end at all. You eventually make it to what is likely the final room. A big granite door blocks your path. Various odd symbols are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you hear a faint laugh coming from behind the door.",
+
+    f"A small worn statue in a shady thicket marks the entrance to this dungeon. Beyond the worn statue lies a small, clammy room. It's covered in roots, dead insects and moss. Your torch allows you to see broken cages and torture devices,frayed and wrecked by time itself.",
+
+    f"Further ahead are three paths, you take the left. Its twisted trail leads passed countless other pathways and soon you enter a humid area. An altar in the center is covered in runes, some of which are glowing. What happened in this place?",
+
+    f"You advance carefully onwards, deeper into the dungeon's shadows. You pass many rooms and passages, some look awfully familiar, others stranger everything else. You eventually make it to what is likely the final room. A massive metal door blocks your path. Countless runes are all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"A massive pair of granite doors in a bleak grove marks the entrance to this dungeon. Beyond the pair of granite doors lies a small, damp room. It's covered in small bones, roots and broken stone. Your torch allows you to see remnants of statues, destroyed and devoured by time itself.",
+
+    f"Further ahead are three paths, you take the right. Its twisted trail leads passed countless other pathways and soon you enter a clammy area. It's filled with tombs, but their owners are spread across the floor. What happened in this place?",
+
+    f"You press onwards, deeper into the dungeon's darkness. You pass many different passages, each with their own twists, turns and destinations. You eventually make it to what is likely the final room. A tall metal door blocks your path. Strange writing is all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. you think you can hear a whisper coming from behind the door.",
+
+    f"Further ahead is a single path. Its twisted trail leads passed pillaged rooms and soon you enter a dusty area. It's filled with strange glowing crystals and countless dead vermin. What happened in this place?" 
+]

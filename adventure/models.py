@@ -5,6 +5,7 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 import uuid
 
+
 class Room(models.Model):
     title = models.CharField(max_length=50, default="DEFAULT TITLE")
     description = models.CharField(max_length=500, default="DEFAULT DESCRIPTION")
@@ -12,6 +13,8 @@ class Room(models.Model):
     s_to = models.IntegerField(default=0)
     e_to = models.IntegerField(default=0)
     w_to = models.IntegerField(default=0)
+    x = models.IntegerField(default=0)
+    y = models.IntegerField(default=0)
     def connectRooms(self, destinationRoom, direction):
         destinationRoomID = destinationRoom.id
         try:
@@ -61,6 +64,7 @@ def create_user_player(sender, instance, created, **kwargs):
 @receiver(post_save, sender=User)
 def save_user_player(sender, instance, **kwargs):
     instance.player.save()
+    
 
 
 

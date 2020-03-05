@@ -5,16 +5,8 @@
 # procedural generation algorithm and use print_rooms()
 # to see the world.
 
-from rooms import rooms
+from dataset import dataset,cities
 
-roomskey = []
-roomsvalue = []
-def getList(rooms):
-    for key, value in rooms.items():
-        roomskey.append(key)
-        roomsvalue.append(value)
-
-     
 class Room:
     def __init__(self, id, name, description, x, y):
         self.id = id
@@ -89,9 +81,9 @@ class World:
                 direction *= -1
 
             # Create a room in the given direction
-            room = Room(room_count, roomskey[room_count], roomsvalue[room_count], x, y)
+            print(y, x)
+            room = Room(room_count, cities[room_count], 'Generic description', x, y)
             # Note that in Django, you'll need to save the room after you create it
-            # room.save()
 
             # Save the room in the World grid
             self.grid[y][x] = room
@@ -137,7 +129,7 @@ class World:
                 else:
                     str += " "
                 if room is not None:
-                    str += f"{room.name}".zfill(3)
+                    str += f"{room.id}".zfill(3)
                 else:
                     str += "   "
                 if room is not None and room.e_to is not None:
@@ -160,11 +152,11 @@ class World:
         # Print string
         print(str)
 
-getList(rooms)
+
 w = World()
-num_rooms = 100
-width = 10
-height = 10
+num_rooms = 44
+width = 8
+height = 7
 w.generate_rooms(width, height, num_rooms)
 w.print_rooms()
 
