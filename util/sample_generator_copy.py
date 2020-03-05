@@ -5,8 +5,20 @@
 # procedural generation algorithm and use print_rooms()
 # to see the world.
 
+from util.rooms import rooms_dict
+from adventure.models import Player, Room
 
-class Room:
+roomskey = []
+roomsvalue = []
+def getList(rooms_dict):
+    for key, value in rooms_dict.items():
+        rooms = Room(key, value)
+        # roomskey.append(key)
+        # roomsvalue.append(value)
+        rooms.save()
+
+     
+class Generate_Room:
     def __init__(self, id, name, description, x, y):
         self.id = id
         self.name = name
@@ -80,8 +92,11 @@ class World:
                 direction *= -1
 
             # Create a room in the given direction
-            room = Room(room_count, "A Generic Room", "This is a generic room.", x, y)
+            room = Generate_Room(room_count, roomskey[room_count], roomsvalue[room_count], x, y)
             # Note that in Django, you'll need to save the room after you create it
+
+            # db_rooms = Room(width, height, num_rooms)
+            # room.save()
 
             # Save the room in the World grid
             self.grid[y][x] = room
@@ -93,7 +108,7 @@ class World:
             # Update iteration variables
             previous_room = room
             room_count += 1
-
+        return self.grid
 
 
     def print_rooms(self):
@@ -127,7 +142,7 @@ class World:
                 else:
                     str += " "
                 if room is not None:
-                    str += f"{room.id}".zfill(3)
+                    str += f"{room.name}".zfill(3)
                 else:
                     str += "   "
                 if room is not None and room.e_to is not None:
@@ -150,13 +165,14 @@ class World:
         # Print string
         print(str)
 
-
+getList(rooms_dict)
 w = World()
-num_rooms = 44
-width = 8
-height = 7
+num_rooms = 100
+width = 10
+height = 10
 w.generate_rooms(width, height, num_rooms)
 w.print_rooms()
+
 
 
 print(f"\n\nWorld\n  height: {height}\n  width: {width},\n  num_rooms: {num_rooms}\n")

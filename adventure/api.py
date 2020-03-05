@@ -4,6 +4,8 @@ from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from decouple import config
 from django.contrib.auth.models import User
+from django.core import serializers
+from django.http import HttpResponse
 from .models import *
 from rest_framework.decorators import api_view
 import json
@@ -65,3 +67,27 @@ def move(request):
 def say(request):
     # IMPLEMENT
     return JsonResponse({'error':"Not yet implemented"}, safe=True, status=500)
+
+# class RoomSerializer(serializers.ModelSerializer):
+#     class Meta:
+#         model = Room
+#         fields = ["id", "title", "description", "n_to", "s_to", "e_to", "w_to", "x", "y"]
+
+
+# @csrf_exempt
+# @api_view(["GET"])
+# def rooms(request):
+#     user = request.user
+#     rooms = serializers.serialize('json', Room.objects.all()) 
+
+#     # room = user.room
+#     print(f'*******************************checking the info receieved from the user: {user}***********************************')
+
+#     # return JsonResponse({'roomlist': room.roomlist})
+#     return HttpResponse(rooms, content_type="application/json")
+
+@csrf_exempt
+@api_view(["GET"])
+def rooms(request):
+    rooms = Room.objects.all().values()
+    return JsonResponse({"rooms": list(rooms)})
